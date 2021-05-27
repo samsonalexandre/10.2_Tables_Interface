@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		96CE4F01265EB51800CEAB78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96CE4EFF265EB51800CEAB78 /* LaunchScreen.storyboard */; };
 		96CE4F0C265EB51800CEAB78 /* _0_2_Tables_InterfaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CE4F0B265EB51800CEAB78 /* _0_2_Tables_InterfaceTests.swift */; };
 		96CE4F17265EB51800CEAB78 /* _0_2_Tables_InterfaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CE4F16265EB51800CEAB78 /* _0_2_Tables_InterfaceUITests.swift */; };
+		96F7BDDA265FEF0300151C4D /* NameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F7BDD9265FEF0300151C4D /* NameTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		96CE4F12265EB51800CEAB78 /* 10.2_Tables_InterfaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 10.2_Tables_InterfaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96CE4F16265EB51800CEAB78 /* _0_2_Tables_InterfaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0_2_Tables_InterfaceUITests.swift; sourceTree = "<group>"; };
 		96CE4F18265EB51800CEAB78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96F7BDD9265FEF0300151C4D /* NameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				96CE4EF3265EB51400CEAB78 /* SceneDelegate.swift */,
 				96CE4EF5265EB51400CEAB78 /* ViewController.swift */,
 				96CE4EF7265EB51400CEAB78 /* Main.storyboard */,
+				96F7BDD9265FEF0300151C4D /* NameTableViewCell.swift */,
 				96CE4EFD265EB51800CEAB78 /* Assets.xcassets */,
 				96CE4EFF265EB51800CEAB78 /* LaunchScreen.storyboard */,
 				96CE4F02265EB51800CEAB78 /* Info.plist */,
@@ -210,7 +213,7 @@
 				};
 			};
 			buildConfigurationList = 96CE4EE9265EB51400CEAB78 /* Build configuration list for PBXProject "10.2_Tables_Interface" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -265,6 +268,7 @@
 				96CE4EF6265EB51400CEAB78 /* ViewController.swift in Sources */,
 				96CE4EF2265EB51400CEAB78 /* AppDelegate.swift in Sources */,
 				96CE4EF4265EB51400CEAB78 /* SceneDelegate.swift in Sources */,
+				96F7BDDA265FEF0300151C4D /* NameTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,7 +454,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.samson-elektronik.-0-2-Tables-Interface";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -469,7 +473,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.samson-elektronik.-0-2-Tables-Interface";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
