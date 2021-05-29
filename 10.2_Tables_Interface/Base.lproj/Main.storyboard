@@ -53,6 +53,7 @@
                                         <connections>
                                             <outlet property="indexLabel" destination="DCy-LK-v0V" id="tyO-rl-inN"/>
                                             <outlet property="nameLabel" destination="2Rv-q6-8Mq" id="oPN-Wp-8Kz"/>
+                                            <segue destination="nbY-4x-SSQ" kind="show" id="kX0-xb-HRf"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -70,15 +71,37 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Zom-ss-V4U" secondAttribute="bottom" id="jK1-Jr-Dds"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="Zom-ss-V4U" id="ilU-UJ-rGk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="80.357142857142847"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="CXm-KK-oLm">
+            <objects>
+                <viewController id="nbY-4x-SSQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wKz-vg-WDi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="WOs-hy-0Pa"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yhO-zf-280"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f0k-Lm-asf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="851" y="80"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
